@@ -1,4 +1,13 @@
 body{
 background-color: rgb(253, 187, 242);
+table,td,th {border: solid rgb(206, 69, 92) 4px;
+    border-collapse: collapse;padding: 20px; width: 400px;
+ } input,textarea {border: none;
+ outline: none; background: none;}
+  input[type="submit"] {
+    background-color: rgb(99, 19, 68); /* يخلي الزر أحمر */
+    color: white;width: 50px;; /* لون الكتابة أبيض */
+    
+  }
 
 }
